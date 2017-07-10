@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+  <tile>
+        <visual>
+            <binding template="TileSmall" displayname ="Todos">
+                 <text hint-style="subtitle" hint-wrap = "true"></text>
+                 <text hint-style="captionSubtle" hint-wrap = "true"></text>
+                 <image src="Assets\background2.jpg" hint-removeMargin ="true" placement="background"/>
+            </binding>
+
+            <binding template="TileMedium" displayname="Todos">
+                 <text hint-style="subtitle" hint-wrap = "true"></text>
+                 <text hint-style="captionSubtle" hint-wrap = "true"></text>
+                 <image src="Assets\background3.jpg" hint-removeMargin ="true" placement="background"/>
+            </binding>
+
+            <binding template="TileWide" displayname ="Todos">
+                <text hint-style="subtitle" hint-wrap = "true"></text>
+                <text hint-style="captionSubtle" hint-wrap = "true"></text>
+                <image src="Assets\Wide310x150Logo.scale-200.png" hint-removeMargin ="true" placement="background"/>
+            </binding>
+        </visual>
+    </tile>
